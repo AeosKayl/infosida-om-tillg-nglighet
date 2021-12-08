@@ -1,3 +1,9 @@
+@mixin flex-style {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
 *{
   box-sizing: border-box;
   margin: 0;
@@ -44,7 +50,6 @@ body{
     }
     
     main{
-      // display: flex;
       padding: 20px;
       h2{
         text-align: center;
@@ -52,22 +57,16 @@ body{
       }
 
       .section-wrapper{
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        // background-color: gold;
+        @include flex-style;
         margin-top: 30px;
 
         .explanation{
-          display: flex;
-          justify-content: space-around;
-          flex-wrap: wrap;
+          @include flex-style;
           border-top: 2px solid wheat;
           border-bottom: 2px solid wheat;
           background-color: hsl(202, 100%, 95%);
           border-radius: 12px;
           width: 100%;
-          // height: 300px;
           margin-bottom: 30px;
 
           h3{
@@ -76,8 +75,6 @@ body{
           }
           .general-access{
             width: 100%;
-            // height: 120px;
-            // background-color: hotpink;
             h3, p{
               margin-bottom: 10px;
             }
@@ -85,7 +82,6 @@ body{
 
           .web-access{
             width: 100%;
-            // height: 150px;
             h3, p{
               margin-bottom: 10px;
             }
@@ -93,9 +89,7 @@ body{
         }
 
         .examples{
-          display: flex;
-          justify-content: space-around;
-          flex-wrap: wrap;
+          @include flex-style;
           background-color: rgb(219, 255, 244);
           border-top: 2px solid wheat;
           border-bottom: 2px solid wheat;
@@ -110,7 +104,6 @@ body{
 
           .accessible-design{
             width: 100%;
-            // background-color: mediumaquamarine;
 
             h3, p{
               margin-bottom: 10px;
@@ -157,8 +150,6 @@ body{
             }
 
           }
-          
-          // justify-content:flex-start;
         }
       }
 

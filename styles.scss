@@ -1,0 +1,230 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+
+  .wrapper-all{
+    margin: 0;
+    
+    header{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 200px; 
+    background-color: rgb(206, 229, 253);
+    text-align: center;
+    padding: 10px;
+    // background-image: url("tillgänglighet.png");
+    
+    .image-cont{
+        img{
+          width: 100%;
+          height: 140px;
+          
+        }
+    }  
+
+    .heading {
+      width: 100%;
+      border-top: 2px solid rgb(201, 201, 250);
+      padding-top: 15px;
+      h1{
+        margin-bottom: 10px;
+        font-family: 'Cinzel Decorative', cursive,'Times New Roman',Times,serif;
+      }
+
+      
+      
+    }
+    }
+    
+    main{
+      // display: flex;
+      padding: 20px;
+      h2{
+        text-align: center;
+        font-style: oblique;
+      }
+
+      .section-wrapper{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        // background-color: gold;
+        margin-top: 30px;
+
+        .explanation{
+          display: flex;
+          justify-content: space-around;
+          flex-wrap: wrap;
+          border-top: 2px solid wheat;
+          border-bottom: 2px solid wheat;
+          background-color: hsl(202, 100%, 95%);
+          border-radius: 12px;
+          width: 100%;
+          // height: 300px;
+          margin-bottom: 30px;
+
+          h3{
+            font-family: 'Quattrocento', 'Times New Roman',Times,serif;
+            font-size:x-large;
+          }
+          .general-access{
+            width: 100%;
+            // height: 120px;
+            // background-color: hotpink;
+            h3, p{
+              margin-bottom: 10px;
+            }
+          }
+
+          .web-access{
+            width: 100%;
+            // height: 150px;
+            h3, p{
+              margin-bottom: 10px;
+            }
+          }
+        }
+
+        .examples{
+          display: flex;
+          justify-content: space-around;
+          flex-wrap: wrap;
+          background-color: rgb(219, 255, 244);
+          border-top: 2px solid wheat;
+          border-bottom: 2px solid wheat;
+          border-radius: 12px;
+          width: 100%;
+
+          h3{
+            font-family: 'Quattrocento', 'Times New Roman',Times,serif;
+            font-size:x-large;
+          }
+          
+
+          .accessible-design{
+            width: 100%;
+            // background-color: mediumaquamarine;
+
+            h3, p{
+              margin-bottom: 10px;
+            }
+
+            ul{
+              padding: 5px 20px;
+              margin-bottom: 20px;
+            }
+
+          }
+
+          .for-developers{
+            width: 100%;
+            h3, p{
+              margin-bottom: 10px;
+            }
+
+            ul{
+              padding: 5px 20px;
+              margin-bottom: 10px;
+            }
+          }
+          
+        }
+
+        .reading-tips{
+          display: flex;
+          justify-content: space-between;
+          flex-wrap: wrap;
+          width: 100%;
+          margin-top: 10px;
+          
+          h4{
+            width: 100%;
+            text-align: center;
+          }
+          
+          .link-list{
+            width: 100%;
+            ul{
+              padding: 5px 20px;
+              margin-bottom: 10px;
+            }
+
+          }
+          
+          // justify-content:flex-start;
+        }
+      }
+
+    }
+    
+
+    footer{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      height: 80px;
+      border-top: 2px double black;
+    }
+
+
+  }
+
+
+}
+
+@media screen and (min-width: 420px) {
+
+  body{
+    .wrapper-all{
+      header{
+        background-color: white;
+
+        .heading{
+          background-color: rgb(191, 250, 240);
+        }
+        
+        
+      }
+
+      main{
+        padding: 50px;
+        .section-wrapper{
+
+          .explanation{
+            height: 300px;
+            margin-bottom: 30px;
+            
+            .general-access{
+              width: 100%;
+              height:150px;
+              p{
+                margin-bottom: 0;
+              }
+            }
+            .web-access{
+              width: 100%;
+              height: 150px;
+              margin-bottom: 0;
+            }
+    
+            
+          }
+
+        }
+      }
+      
+
+    }
+
+  }
+  
+}
+

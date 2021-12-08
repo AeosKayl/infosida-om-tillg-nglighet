@@ -1,0 +1,219 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body .wrapper-all {
+  margin: 0;
+}
+
+body .wrapper-all header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  min-height: 200px;
+  background-color: #cee5fd;
+  text-align: center;
+  padding: 10px;
+}
+
+body .wrapper-all header .image-cont img {
+  width: 100%;
+  height: 140px;
+}
+
+body .wrapper-all header .heading {
+  width: 100%;
+  border-top: 2px solid #c9c9fa;
+  padding-top: 15px;
+}
+
+body .wrapper-all header .heading h1 {
+  margin-bottom: 10px;
+  font-family: 'Cinzel Decorative', cursive,'Times New Roman',Times,serif;
+}
+
+body .wrapper-all main {
+  padding: 20px;
+}
+
+body .wrapper-all main h2 {
+  text-align: center;
+  font-style: oblique;
+}
+
+body .wrapper-all main .section-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+body .wrapper-all main .section-wrapper .explanation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  border-top: 2px solid wheat;
+  border-bottom: 2px solid wheat;
+  background-color: #e6f6ff;
+  border-radius: 12px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+body .wrapper-all main .section-wrapper .explanation h3 {
+  font-family: 'Quattrocento', 'Times New Roman',Times,serif;
+  font-size: x-large;
+}
+
+body .wrapper-all main .section-wrapper .explanation .general-access {
+  width: 100%;
+}
+
+body .wrapper-all main .section-wrapper .explanation .general-access h3, body .wrapper-all main .section-wrapper .explanation .general-access p {
+  margin-bottom: 10px;
+}
+
+body .wrapper-all main .section-wrapper .explanation .web-access {
+  width: 100%;
+}
+
+body .wrapper-all main .section-wrapper .explanation .web-access h3, body .wrapper-all main .section-wrapper .explanation .web-access p {
+  margin-bottom: 10px;
+}
+
+body .wrapper-all main .section-wrapper .examples {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: #dbfff4;
+  border-top: 2px solid wheat;
+  border-bottom: 2px solid wheat;
+  border-radius: 12px;
+  width: 100%;
+}
+
+body .wrapper-all main .section-wrapper .examples h3 {
+  font-family: 'Quattrocento', 'Times New Roman',Times,serif;
+  font-size: x-large;
+}
+
+body .wrapper-all main .section-wrapper .examples .accessible-design {
+  width: 100%;
+}
+
+body .wrapper-all main .section-wrapper .examples .accessible-design h3, body .wrapper-all main .section-wrapper .examples .accessible-design p {
+  margin-bottom: 10px;
+}
+
+body .wrapper-all main .section-wrapper .examples .accessible-design ul {
+  padding: 5px 20px;
+  margin-bottom: 20px;
+}
+
+body .wrapper-all main .section-wrapper .examples .for-developers {
+  width: 100%;
+}
+
+body .wrapper-all main .section-wrapper .examples .for-developers h3, body .wrapper-all main .section-wrapper .examples .for-developers p {
+  margin-bottom: 10px;
+}
+
+body .wrapper-all main .section-wrapper .examples .for-developers ul {
+  padding: 5px 20px;
+  margin-bottom: 10px;
+}
+
+body .wrapper-all main .section-wrapper .reading-tips {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  margin-top: 10px;
+}
+
+body .wrapper-all main .section-wrapper .reading-tips h4 {
+  width: 100%;
+  text-align: center;
+}
+
+body .wrapper-all main .section-wrapper .reading-tips .link-list {
+  width: 100%;
+}
+
+body .wrapper-all main .section-wrapper .reading-tips .link-list ul {
+  padding: 5px 20px;
+  margin-bottom: 10px;
+}
+
+body .wrapper-all footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  height: 80px;
+  border-top: 2px double black;
+}
+
+@media screen and (min-width: 420px) {
+  body .wrapper-all header {
+    background-color: white;
+  }
+  body .wrapper-all header .heading {
+    background-color: #bffaf0;
+  }
+  body .wrapper-all main {
+    padding: 50px;
+  }
+  body .wrapper-all main .section-wrapper .explanation {
+    height: 300px;
+    margin-bottom: 30px;
+  }
+  body .wrapper-all main .section-wrapper .explanation .general-access {
+    width: 100%;
+    height: 150px;
+  }
+  body .wrapper-all main .section-wrapper .explanation .general-access p {
+    margin-bottom: 0;
+  }
+  body .wrapper-all main .section-wrapper .explanation .web-access {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 0;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
